@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_home"
+            android:menuCategory="secondary"
+            android:title="@string/home_title" />
+
+        <item
+            android:id="@+id/serversFragment"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:menuCategory="secondary"
+            android:title="@string/servers_title" />
+
+        <item
+            android:id="@+id/nav_unlock"
+            android:icon="@drawable/ic_shopping_cart"
+            android:menuCategory="secondary"
+            android:title="@string/pro_title" />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_thumb_up_black"
+            android:menuCategory="secondary"
+            android:title="@string/rate_us_title" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:menuCategory="secondary"
+            android:title="@string/tell_your_friend_title" />
+
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_help_black"
+            android:menuCategory="secondary"
+            android:title="@string/faq_title" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_icon"
+            android:menuCategory="secondary"
+            android:title="@string/about_title" />
+
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:menuCategory="secondary"
+            android:title="@string/privacy_policy_title" />
+    </group>
+</menu>

@@ -1,0 +1,61 @@
+package com.smartyvpn.tfsmarty;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+import com.smartyvpn.tfsmarty.R;
+import com.smartyvpn.tfsmarty.model.Server;
+
+public class SharedPreference {
+
+    private static final String APP_PREFS_NAME = "ChikuVPNPreference";
+
+    private SharedPreferences mPreference;
+    private SharedPreferences.Editor mPrefEditor;
+    private Context context;
+
+    private static final String SERVER_COUNTRY = "server_country";
+    private static final String SERVER_FLAG = "server_flag";
+    private static final String SERVER_OVPN = "server_ovpn";
+    private static final String SERVER_OVPN_USER = "server_ovpn_user";
+    private static final String SERVER_OVPN_PASSWORD = "server_ovpn_password";
+    private static final String SERVER_PAID_OR_NOT = "server_paid";
+
+    public SharedPreference(Context context) {
+        this.mPreference = context.getSharedPreferences(APP_PREFS_NAME, Context.MODE_PRIVATE);
+        this.mPrefEditor = mPreference.edit();
+        this.context = context;
+    }
+
+    /**
+     * Save server details
+     * @param server details of ovpn server
+     */
+    public void saveServer(Server server){
+        mPrefEditor.putString(SERVER_COUNTRY, server.getCountry());
+        mPrefEditor.putString(SERVER_FLAG, server.getFlagUrl());
+        mPrefEditor.putString(SERVER_OVPN, server.getOvpn());
+        mPrefEditor.putString(SERVER_OVPN_USER, server.getOvpnUserName());
+        mPrefEditor.putString(SERVER_OVPN_PASSWORD, server.getOvpnUserPassword());
+        mPrefEditor.putString(SERVER_PAID_OR_NOT, server.getChkPaid());
+        mPrefEditor.commit();
+    }
+
+    /**
+     * Get server data from shared preference
+     * @return server model object
+     */
+    public Server getServer() {
+
+        Server server = new Server(
+                mPreference.getString(SERVER_COUNTRY,"Change Server"),
+                mPreference.getString(SERVER_FLAG, Utils.getImgURL(R.drawable.japan)),
+                mPreference.getString(SERVER_OVPN,"null.ovpn"),
+                mPreference.getString(SERVER_OVPN_USER,""),
+                mPreference.getString(SERVER_OVPN_PASSWORD,""),
+                mPreference.getString(SERVER_PAID_OR_NOT,"free")
+        );
+
+        return server;
+    }
+}

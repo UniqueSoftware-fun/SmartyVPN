@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057680100230",
+    "project_id": "smarty-vpn",
+    "storage_bucket": "smarty-vpn.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057680100230:android:13b5b5b7bc3f3fb6c57a07",
+        "android_client_info": {
+          "package_name": "com.smartyvpn.tfsmarty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8mVBBU1-mgECiGNNIt6kwnrzA3Jq9Z1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
