@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义的一些属性-->
+    <declare-styleable name="RB">
+        <!--每颗星星的宽度-->
+        <attr name="starWidth" format="dimension"/>
+        <!--每颗星星的高度-->
+        <attr name="starHeight" format="dimension"/>
+        <!--星星的数量-->
+        <attr name="maxStar" format="integer"/>
+        <!--最小的可选择数量-->
+        <attr name="minStar" format="float"/>
+        <!--当前星星-->
+        <attr name="currentStar" format="float"/>
+        <!--星星间距-->
+        <attr name="padding" format="dimension"/>
+        <!--空星星-->
+        <attr name="emptyStar" format="reference"/>
+        <!--满星星-->
+        <attr name="fullStar" format="reference"/>
+        <!--半星星-->
+        <attr name="halfStar" format="reference"/>
+        <!--可以被触摸改变-->
+        <attr name="canChange" format="boolean"/>
+    </declare-styleable>
+</resources>

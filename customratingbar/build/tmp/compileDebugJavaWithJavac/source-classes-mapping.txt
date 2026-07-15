@@ -1,0 +1,5 @@
+com/kikt/view/CustomRatingBar.java
+ com.kikt.view.CustomRatingBar
+ com.kikt.view.CustomRatingBar$OnStarChangeListener
+com/kikt/view/BuildConfig.java
+ com.kikt.view.BuildConfig

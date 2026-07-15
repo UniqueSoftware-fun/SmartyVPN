@@ -124,12 +124,7 @@ public class PaidFreeServerListActivity extends AppCompatActivity implements Nav
         servers.add(new Server("Japan", "jp", "japan_18.ovpn", "vpn", "vpn", "paid"));
         servers.add(new Server("Japan", "jp", "japan_19.ovpn", "vpn", "vpn", "paid"));
         servers.add(new Server("Japan", "jp", "japan_20.ovpn", "vpn", "vpn", "paid"));
-                "jp",
-                "japan.ovpn",
-                "vpn",
-                "vpn",
-                "paid"
-        ));
+        servers.add(new Server("Japan", "jp", "japan.ovpn", "vpn", "vpn", "paid"));
 
         return servers;
     }

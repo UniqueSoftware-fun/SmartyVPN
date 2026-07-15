@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ubuntu/SmartyVPN_repo/customratingbar/src/main/res"/><source path="/home/ubuntu/SmartyVPN_repo/customratingbar/build/generated/res/rs/release"/><source path="/home/ubuntu/SmartyVPN_repo/customratingbar/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ubuntu/SmartyVPN_repo/customratingbar/src/main/res"><file path="/home/ubuntu/SmartyVPN_repo/customratingbar/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="RB">
+        
+        <attr format="dimension" name="starWidth"/>
+        
+        <attr format="dimension" name="starHeight"/>
+        
+        <attr format="integer" name="maxStar"/>
+        
+        <attr format="float" name="minStar"/>
+        
+        <attr format="float" name="currentStar"/>
+        
+        <attr format="dimension" name="padding"/>
+        
+        <attr format="reference" name="emptyStar"/>
+        
+        <attr format="reference" name="fullStar"/>
+        
+        <attr format="reference" name="halfStar"/>
+        
+        <attr format="boolean" name="canChange"/>
+    </declare-styleable></file><file path="/home/ubuntu/SmartyVPN_repo/customratingbar/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">Library</string></file><file name="star_empty" path="/home/ubuntu/SmartyVPN_repo/customratingbar/src/main/res/drawable/star_empty.xml" qualifiers="" type="drawable"/><file name="star_half" path="/home/ubuntu/SmartyVPN_repo/customratingbar/src/main/res/drawable/star_half.xml" qualifiers="" type="drawable"/><file name="star_full" path="/home/ubuntu/SmartyVPN_repo/customratingbar/src/main/res/drawable/star_full.xml" qualifiers="" type="drawable"/></source><source path="/home/ubuntu/SmartyVPN_repo/customratingbar/build/generated/res/rs/release"/><source path="/home/ubuntu/SmartyVPN_repo/customratingbar/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ubuntu/SmartyVPN_repo/customratingbar/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ubuntu/SmartyVPN_repo/customratingbar/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="RB">
+        
+        <attr format="dimension" name="starWidth"/>
+        
+        <attr format="dimension" name="starHeight"/>
+        
+        <attr format="integer" name="maxStar"/>
+        
+        <attr format="float" name="minStar"/>
+        
+        <attr format="float" name="currentStar"/>
+        
+        <attr format="dimension" name="padding"/>
+        
+        <attr format="reference" name="emptyStar"/>
+        
+        <attr format="reference" name="fullStar"/>
+        
+        <attr format="reference" name="halfStar"/>
+        
+        <attr format="boolean" name="canChange"/>
+    </declare-styleable></configuration></mergedItems></merger>

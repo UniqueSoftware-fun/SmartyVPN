@@ -562,9 +562,10 @@ class MainFragment : Fragment(), ChangeServer,
 
     private fun initNavigation() {
 
-        binding!!.homeDrawerLayout.setViewScale(Gravity.START, 0.96f)
-        binding!!.homeDrawerLayout.setRadius(Gravity.START, 20f)
-        binding!!.homeDrawerLayout.setViewElevation(Gravity.START, 8f)
+        // removed AdvanceDrawerLayout-specific methods (using standard DrawerLayout)
+        // binding!!.homeDrawerLayout.setViewScale(Gravity.START, 0.96f)
+        // binding!!.homeDrawerLayout.setRadius(Gravity.START, 20f)
+        // binding!!.homeDrawerLayout.setViewElevation(Gravity.START, 8f)
 
         navController.let {
             binding!!.navView.setupWithNavController(it)

@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+attr? canChange
+attr? currentStar
+attr? emptyStar
+attr? fullStar
+attr? halfStar
+attr? maxStar
+attr? minStar
+attr? padding
+attr? starHeight
+attr? starWidth
+drawable star_empty
+drawable star_full
+drawable star_half
+string app_name
+styleable RB starWidth starHeight maxStar minStar currentStar padding emptyStar fullStar halfStar canChange

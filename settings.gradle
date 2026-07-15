@@ -1,3 +1,4 @@
 include ':app'
 include ':vpnLib'
+include ':customratingbar'
 rootProject.name = "Private VPN"

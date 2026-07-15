@@ -125,83 +125,27 @@ public class FreeServerListActivity extends AppCompatActivity implements NavItem
 //
 //            }
 //        });
+        servers.add(new Server("Japan", "jp", "japan.ovpn", "vpn", "vpn", "free"));
 
-                "jp",
-                "japan.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("USA", "us", "usa.ovpn", "vpn", "vpn", "free"));
 
-                "us",
-                "usa.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("Korea", "kr", "korea.ovpn", "vpn", "vpn", "free"));
 
-                "kr",
-                "korea.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("Estonia", "ee", "estonia.ovpn", "vpn", "vpn", "free"));
 
-                "ee",
-                "estonia.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("India", "in", "india.ovpn", "vpn", "vpn", "free"));
 
-                "in",
-                "india.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("Vietnam", "vn", "vietnam.ovpn", "vpn", "vpn", "free"));
 
-                "vn",
-                "vietnam.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("Thailand", "th", "thailand.ovpn", "vpn", "vpn", "free"));
 
-                "th",
-                "thailand.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("Peru", "pe", "peru.ovpn", "vpn", "vpn", "free"));
 
-                "pe",
-                "peru.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("Cambodia", "kh", "cambodia.ovpn", "vpn", "vpn", "free"));
 
-                "kh",
-                "cambodia.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("Indonesia", "id", "indonesia.ovpn", "vpn", "vpn", "free"));
 
-                "id",
-                "indonesia.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
-
-                "ru",
-                "russia.ovpn",
-                "vpn",
-                "vpn",
-                "free"
-        ));
+servers.add(new Server("Russia", "ru", "russia.ovpn", "vpn", "vpn", "free"));
 
 
 
