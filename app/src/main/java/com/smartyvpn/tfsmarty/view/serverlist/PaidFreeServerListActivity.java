@@ -94,37 +94,19 @@ public class PaidFreeServerListActivity extends AppCompatActivity implements Nav
 
         ArrayList<Server> servers = new ArrayList<>();
 
-        servers.add(new Server("Japan", "jp", "japan_1.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_2.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_3.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_4.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_5.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_6.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_7.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_8.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_9.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_10.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_11.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_12.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_13.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Korea Republic of", "kr", "korea_republic_of_1.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("India", "in", "india_1.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_14.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Korea Republic of", "kr", "korea_republic_of_2.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_15.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Romania", "ro", "romania_1.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Korea Republic of", "kr", "korea_republic_of_3.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Korea Republic of", "kr", "korea_republic_of_4.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_16.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Korea Republic of", "kr", "korea_republic_of_5.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_17.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Korea Republic of", "kr", "korea_republic_of_6.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("United States", "us", "united_states_1.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Korea Republic of", "kr", "korea_republic_of_7.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_18.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_19.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan_20.ovpn", "vpn", "vpn", "paid"));
-        servers.add(new Server("Japan", "jp", "japan.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("United Kingdom - Manchester", "gb", "paid_united_kingdom.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("United Kingdom - London", "gb", "paid_united_kingdom_london.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("Australia - Melburn", "au", "paid_australia.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("Canada - Montreal", "ca", "paid_canada.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("United States - Ashburn", "us", "paid_united_states.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("Switzerland - Zürich", "ch", "paid_switzerland.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("Chile - Santiago", "cl", "paid_chile.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("Estonia - Tallinn", "ee", "paid_estonia.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("Ireland - Dublin", "ie", "paid_ireland.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("Japan - Tokyo", "jp", "paid_japan.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("New Zealand - Auckland", "nz", "paid_new_zealand.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("France - Paris", "fr", "paid_france.ovpn", "vpn", "vpn", "paid"));
+        servers.add(new Server("India", "in", "paid_india.ovpn", "vpn", "vpn", "paid"));
 
         return servers;
     }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Smarty VPN</string>
+    <string name="app_name">SmartyVPN</string>
     <string name="vpn_on">VPN ON</string>
     <string name="vpn_off">VPN OFF</string>
     <string name="navigation_drawer_open">drawer open</string>
@@ -13,9 +13,9 @@
     <string name="not_connect">Not Connected</string>
 
     <!--Admob Ids -->
-    <string name="ad_id">ca-app-pub-7621524403199169~4907450544</string>
-    <string name="banner_ad">ca-app-pub-7621524403199169/4379013101</string>
-    <string name="interstitial_ad">ca-app-pub-7621524403199169/3594368873</string>
+    <string name="ad_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad">ca-app-pub-3940256099942544/1033173712</string>
     <string name="admob_openads_id">ca-app-pub-3940256099942544/3419835294</string>
 
     <!-- change App version -->

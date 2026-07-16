@@ -125,27 +125,27 @@ public class FreeServerListActivity extends AppCompatActivity implements NavItem
 //
 //            }
 //        });
-        servers.add(new Server("Japan", "jp", "japan.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("USA", "us", "usa.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("Korea", "kr", "korea.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("Estonia", "ee", "estonia.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("India", "in", "india.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("Vietnam", "vn", "vietnam.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("Thailand", "th", "thailand.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("Peru", "pe", "peru.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("Cambodia", "kh", "cambodia.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("Indonesia", "id", "indonesia.ovpn", "vpn", "vpn", "free"));
-
-servers.add(new Server("Russia", "ru", "russia.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("United States - Atlanta", "us", "united_states.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("United Kingdom - Glasgow", "gb", "united_kingdom.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Iceland - Reykjavík", "is", "iceland.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Greece - Athens", "gr", "greece.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Switzerland - Zürich", "ch", "switzerland.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Chile - Santiago", "cl", "chile.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Estonia - Tallinn", "ee", "estonia.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Canada - Toronto", "ca", "canada.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Australia - Perth", "au", "australia.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Ireland - Dublin", "ie", "ireland.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Japan - Tokyo", "jp", "japan.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("New Zealand - Auckland", "nz", "new_zealand.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("France - Paris", "fr", "france.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("South Korea - Seoul", "kr", "south_korea.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Spain - Madrid", "es", "spain.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Finland - Helsinki", "fi", "finland.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Latvia - Riga", "lv", "latvia.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("United Arab Emirates - Dubai", "ae", "united_arab_emirates.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Costa Rica - San Jose", "cr", "costa_rica.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("Portugal - Lisbon", "pt", "portugal.ovpn", "vpn", "vpn", "free"));
+        servers.add(new Server("India", "in", "india.ovpn", "vpn", "vpn", "free"));
 
 
 
